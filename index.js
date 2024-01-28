@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 app.get('/getOpacity', (req, res) => {
-  const opacity = 0;
+  const opacity = 1;
   res.json({ opacity });
 });
 
